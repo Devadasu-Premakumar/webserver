@@ -1,2 +1,3 @@
 #!/bin/bash
-service httpd start
+systemctl start apache2
+systemctl enable apache2
